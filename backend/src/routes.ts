@@ -4,7 +4,7 @@ const router = Router();
 
 router.get("/teste", (req: Request, res: Response) => {
   res.send("Hello World");
-  //   throw new Error("Error message");
+  // throw new Error("Error message");
 });
 
 export { router };
