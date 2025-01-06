@@ -1,0 +1,40 @@
+# Dependências do Node.js
+node_modules/
+
+# Arquivos de compilação do TypeScript
+dist/
+build/
+
+# Configurações locais do ambiente
+.env
+.env.local
+.env.*.local
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Cache do sistema
+.cache/
+.DS_Store
+Thumbs.db
+
+# Arquivos de saída do editor
+*.swp
+*.swo
+
+# Configurações específicas do editor
+.vscode/
+.idea/
+
+# Arquivos do sistema operacional
+*.tmp
+*.bak
+*.orig
+
+# Arquivos gerados pelo Git
+*.lock
+*.keep
